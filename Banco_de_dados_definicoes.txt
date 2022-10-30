@@ -1,0 +1,56 @@
+O Sistema de Gerenciamento de Bancos de Dados é um conjunto de programas que 
+serve para gerenciar um ou mais banco de dados. 
+Defina: dados, banco de dados, modelo de dados, metadados e catálogo de dados.
+
+
+Dados:
+
+    Definimos dado como uma seqüência de símbolos quantificados ou quantificáveis. Portanto, um texto é um dado. 
+De fato, as letras são símbolos quantificados, já que o alfabeto por si só constitui uma base numérica. 
+Também são dados imagens, sons e animação, pois todos podem ser quantificados a ponto de alguém que entra em 
+contato com eles ter eventualmente dificuldade de distinguir a sua reprodução, 
+a partir da representação quantificada, com o original. 
+É muito importante notar-se que qualquer texto constitui um dado ou uma seqüência de dados, 
+mesmo que ele seja ininteligível para o leitor. Isso ficará mais claro no próximo item.
+Como são símbolos quantificáveis, dados podem obviamente ser armazenados em um computador e processados por ele.
+    Em nossa definição, um dado é necessariamente uma entidade matemática e, desta forma, puramente sintática. 
+Isto significa que os dados podem ser totalmente descritos através de representações formais, estruturais. 
+Dentro de um computador, trechos de um texto podem ser ligados virtualmente a outros trechos, por meio de contigüidade
+ física ou por "ponteiros", isto é, endereços da unidade de armazenamento sendo utilizada. 
+ Ponteiros podem fazer a ligação de um ponto de um texto a uma representação quantificada de uma figura, de um som, etc.
+
+
+Banco de Dados:
+
+    Bancos de dados são conjuntos de informações inter-relacionadas sobre determinado assunto, armazenados de modo a permitir
+o acesso organizado por parte dos usuários. 
+Segundo a definição de Elmasri e Navathe (2011), “um banco de dados representa algum aspecto do mundo real, às vezes 
+chamado de minimundo ou de universo de discurso (UoD – Universe of Discourse).
+    Os bancos de dados têm como objetivo proporcionar agilidade, uniformidade e segurança em todas as suas fases. 
+Ao juntarmos o conhecimento pré-existente à velocidade de processamento e à capacidade de armazenamento de informações 
+proporcionadas pela informática, é possível criar modelos interessantes para o usuário: fáceis de usar, com rápida
+consulta e resposta, e baixo custo de manutenção.
+
+
+Modelo de Dados:
+
+    A modelagem de dados é o ato de explorar estruturas orientadas a dados. É o processo de criação de um diagrama 
+simples a partir de um sistema (como um aplicativo, software ou plataforma) complexo, usando texto e símbolos para 
+representar a forma como os dados fluirão.
+
+
+Metadados:
+
+    O conceito de metadados como “dados sobre dados” tem sua origem na ciência da computação. Gill (2000) afirmou 
+que essa definição tem levado à utilização do termo metadados onde o termo dados teria sido anteriormente considerado
+suficiente (como em descrições de pessoas ou objetos), acarretando confusões e mal-entendidos. Vellucci (1998) destacou
+que o suporte nessa definição pode levar à idéia de que metadados são simplesmente dados catalográficos ou 
+bibliográficos com outro nome. Assim, aqui destacam-se definições mais específicas e próximas das tendências de conceituar dado e
+informação valorizando o contexto e o usuário.
+
+
+Catálogo de Dados:
+
+    Um catálogo de dados é um inventário dos ativos de dados de uma empresa para que os usuários possam encontrar rapidamente 
+as informações de que precisam. O catálogo é constituído principalmente de metadados que fornecem informações básicas sobre
+outros dados e descrevem o que são. Combinados com gerenciamento de dados e ferramentas de pesquisa, você tem um catálogo de dados.
