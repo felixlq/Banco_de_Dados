@@ -4,7 +4,6 @@ Defina: dados, banco de dados, modelo de dados, metadados e catálogo de dados.
 
 
 Dados:
-
     Definimos dado como uma seqüência de símbolos quantificados ou quantificáveis. Portanto, um texto é um dado. 
 De fato, as letras são símbolos quantificados, já que o alfabeto por si só constitui uma base numérica. 
 Também são dados imagens, sons e animação, pois todos podem ser quantificados a ponto de alguém que entra em 
@@ -21,7 +20,6 @@ Dentro de um computador, trechos de um texto podem ser ligados virtualmente a ou
 
 
 Banco de Dados:
-
     Bancos de dados são conjuntos de informações inter-relacionadas sobre determinado assunto, armazenados de modo a permitir
 o acesso organizado por parte dos usuários. 
 Segundo a definição de Elmasri e Navathe (2011), “um banco de dados representa algum aspecto do mundo real, às vezes 
@@ -33,14 +31,12 @@ consulta e resposta, e baixo custo de manutenção.
 
 
 Modelo de Dados:
-
     A modelagem de dados é o ato de explorar estruturas orientadas a dados. É o processo de criação de um diagrama 
 simples a partir de um sistema (como um aplicativo, software ou plataforma) complexo, usando texto e símbolos para 
 representar a forma como os dados fluirão.
 
 
 Metadados:
-
     O conceito de metadados como “dados sobre dados” tem sua origem na ciência da computação. Gill (2000) afirmou 
 que essa definição tem levado à utilização do termo metadados onde o termo dados teria sido anteriormente considerado
 suficiente (como em descrições de pessoas ou objetos), acarretando confusões e mal-entendidos. Vellucci (1998) destacou
@@ -50,7 +46,6 @@ informação valorizando o contexto e o usuário.
 
 
 Catálogo de Dados:
-
     Um catálogo de dados é um inventário dos ativos de dados de uma empresa para que os usuários possam encontrar rapidamente 
 as informações de que precisam. O catálogo é constituído principalmente de metadados que fornecem informações básicas sobre
 outros dados e descrevem o que são. Combinados com gerenciamento de dados e ferramentas de pesquisa, você tem um catálogo de dados.
