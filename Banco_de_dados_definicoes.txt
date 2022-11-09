@@ -6,17 +6,17 @@ Defina: dados, banco de dados, modelo de dados, metadados e catálogo de dados.
 Dados:
     Definimos dado como uma seqüência de símbolos quantificados ou quantificáveis. Portanto, um texto é um dado. 
 De fato, as letras são símbolos quantificados, já que o alfabeto por si só constitui uma base numérica. 
-Também são dados imagens, sons e animação, pois todos podem ser quantificados a ponto de alguém que entra em 
-contato com eles ter eventualmente dificuldade de distinguir a sua reprodução, 
-a partir da representação quantificada, com o original. 
-É muito importante notar-se que qualquer texto constitui um dado ou uma seqüência de dados, 
-mesmo que ele seja ininteligível para o leitor. Isso ficará mais claro no próximo item.
-Como são símbolos quantificáveis, dados podem obviamente ser armazenados em um computador e processados por ele.
-    Em nossa definição, um dado é necessariamente uma entidade matemática e, desta forma, puramente sintática. 
+    Também são dados imagens, sons e animação, pois todos podem ser quantificados a ponto de alguém que entra em 
+contato com eles ter eventualmente dificuldade de distinguir a sua reprodução, a partir da representação quantificada, 
+com o original. 
+    É muito importante notar-se que qualquer texto constitui um dado ou uma seqüência de dados, 
+mesmo que ele seja ininteligível para o leitor. Como são símbolos quantificáveis, dados podem obviamente ser armazenados 
+em um computador e processados por ele.
+    Um dado é necessariamente uma entidade matemática e desta forma, puramente sintática. 
 Isto significa que os dados podem ser totalmente descritos através de representações formais, estruturais. 
-Dentro de um computador, trechos de um texto podem ser ligados virtualmente a outros trechos, por meio de contigüidade
- física ou por "ponteiros", isto é, endereços da unidade de armazenamento sendo utilizada. 
- Ponteiros podem fazer a ligação de um ponto de um texto a uma representação quantificada de uma figura, de um som, etc.
+    Dentro de um computador, trechos de um texto podem ser ligados virtualmente a outros trechos, por meio de contigüidade
+física ou por "ponteiros", isto é, endereços da unidade de armazenamento sendo utilizada. 
+    Ponteiros podem fazer a ligação de um ponto de um texto a uma representação quantificada de uma figura, de um som, etc.
 
 
 Banco de Dados:
