@@ -25,6 +25,7 @@ Figueiredo  Santos      4598        2º ano      Geografia       9,0
 RESPOSTAS:
 
 1)  σNOTA >= 7,0(ALUNO)
+    SELECT * FROM ALUNO WHERE NOTA > 7.0
 
 ALUNO
 P_NOME      U_NOME      MATRÍCULA   SÉRIE       DISCIPLINA      NOTA
@@ -37,6 +38,7 @@ Figueiredo  Santos      4598        2º ano      Geografia       9,0
 
 
 2)  σSÉRIE = "1º ano" ^ NOTA >= 8,0 (ALUNO)
+    SELECT * FROM ALUNO WHERE NOTA >= 8.0 AND SÉRIE = "1º ano"
 
 ALUNO
 P_NOME      U_NOME      MATRÍCULA   SÉRIE       DISCIPLINA      NOTA
@@ -46,20 +48,40 @@ Alan        Vilela      3285        1º ano      História        8,0
 
 
 3)  πP_NOME, NOTA (ALUNO)
+    SELECT P_NOME, U_NOME, NOTA FROM ALUNO
 
 ALUNO       
-P_NOME      NOTA
-Vitória     7,0
-Luiz        8,0
-André       9,5
-Alan        8,0 
-Figueiredo  9,0
+P_NOME      U_NOME      NOTA
+Vitória     Claudino    7,0
+Luiz        Silva       8,0
+André       Carvalho    9,5
+Alan        Vilela      8,0
 
 
 
-4)  ρPROFESSOR(πP_NOME, U_NOME(ALUNO))
+4)  CREATE TABLE PROFESSOR (
+    P_NOME varchar(25),
+    U_NOME varchar(25),
+    )
+
 
 PROFESSOR
+P_NOME      U_NOME
+Antonio     Peixoto
+João        Cabral
+Maurício    Nassau
+Raquel      Queiroz
+Clarice     Linspector
+
+
+
+5)  CREATE TABLE ALUNO (
+    P_NOME varchar(25),
+    U_NOME varchar(25),
+    )
+
+
+ALUNO
 P_NOME      U_NOME
 Vitória     Claudino
 Luiz        Silva
@@ -69,4 +91,16 @@ Figueiredo  Santos
 
 
 
-5)  
+6)  SELECT * FROM ALUNO
+    UNION
+    SELECT * FROM PROFESSOR
+
+
+7)  SELECT * FROM ALUNO
+    INTERSECT
+    SELECT * FROM PROFESSOR
+
+
+8)  SELECT * FROM ALUNO
+    EXCEPT
+    SELECT * FROM PROFESSOR

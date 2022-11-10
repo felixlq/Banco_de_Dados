@@ -1,0 +1,50 @@
+De acordo com o conteúdo estudado, cite exemplos de Sistemas de Bancos de Dados relacionais e não relacionais (NoSQL).
+
+
+BANCOS DE DADOS: RELACIONAIS E NÃO RELACIONAIS
+
+    Os Banco de dados relacional (SQL) surgiu na década de 70 e, desde então, as empresas foram implementando
+esse conceito, alcançando uma grande popularidade. Hoje, está presente na maior parte dos sistemas.
+Ele é baseado no modelo relacional, uma forma intuitiva e direta de representar os dados em tabelas,
+que também são chamados de relações. Em resumo: na horizontal, temos as linhas e na vertical as colunas. 
+Cada coluna representa um campo diferente de dados e informações.
+    A maior característica desse modelo é a necessidade da estruturação de esquemas, projetando uma estrutura
+de relacionamento entre as linhas e colunas para, assim, poder adicionar algum dado.
+    No banco de dados não relacional (NoSQL), os esquemas não são necessários. 
+Eles representam qualquer banco ligado à Big Data e não seguem o modelo relacional fornecido pelos sistemas
+tradicionais de gerenciamento de dados. São diversos tipos, como o key-value stores, graph stores, column 
+stores, document stores, entre outros.
+    O banco de dados não relacional surgiu como uma alternativa para situações em que há uma quantidade exorbitante
+de dados para armazenar, onde a estruturação em tabelas se torna mais difícil.
+
+SQL
+SQL é a sigla para “Structured Query Language” que significa, traduzindo para o português,
+“Linguagem de Consulta Estruturada”. Trata-se de uma linguagem de consulta a banco de dados relacionais.
+Com o SQL, você pode executar vários comandos para criar, alterar, gerenciar, consultar, dentre outras
+informações no seu banco de dados. Costuma-se dizer que bancos SQL seguem uma modelagem relacional, pois estes
+se baseiam no fato de que todos seus dados sejam guardados em tabelas.
+
+NoSQL
+NoSQL (Not Only SQL) é o termo utilizado para banco de dados não relacionais de alto desempenho,
+onde geralmente não é utilizado o SQL como linguagem de consulta. O NoSQL foi criado para ter uma performance 
+melhor e uma escalabilidade mais horizontal para suprir necessidades onde os bancos relacionais não são 
+eficazes. No geral, temos 4 tipos de bancos de dados NoSQL: Documento, Colunas, Grafos e Chave-Valor.
+
+EXEMPLOS:
+
+RELACIONAIS:
+Amazon Aurora
+Oracle
+Microsoft SQL Server
+MariaDB
+MySQL
+PostgreSQL
+
+NÃO RELACIONAIS:
+Memcached
+Cassandra
+Hbase
+Amazon DynamoDB
+Neo4j
+MongoDB
+
