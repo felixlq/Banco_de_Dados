@@ -27,80 +27,99 @@ RESPOSTAS:
 1)  σNOTA >= 7,0(ALUNO)
     SELECT * FROM ALUNO WHERE NOTA > 7.0
 
-ALUNO
-P_NOME      U_NOME      MATRÍCULA   SÉRIE       DISCIPLINA      NOTA
-Vitória     Claudino    5542        2º ano      Matemática      7,0
-Luiz        Silva       6215        1º ano      Português       8,0
-André       Carvalho    4521        3º ano      Matemática      9,5
-Alan        Vilela      3285        1º ano      História        8,0 
-Figueiredo  Santos      4598        2º ano      Geografia       9,0 
+        ALUNO
+        P_NOME      U_NOME      MATRÍCULA   SÉRIE       DISCIPLINA      NOTA
+        Vitória     Claudino    5542        2º ano      Matemática      7,0
+        Luiz        Silva       6215        1º ano      Português       8,0
+        André       Carvalho    4521        3º ano      Matemática      9,5
+        Alan        Vilela      3285        1º ano      História        8,0 
+        Figueiredo  Santos      4598        2º ano      Geografia       9,0 
 
 
 
 2)  σSÉRIE = "1º ano" ^ NOTA >= 8,0 (ALUNO)
     SELECT * FROM ALUNO WHERE NOTA >= 8.0 AND SÉRIE = "1º ano"
 
-ALUNO
-P_NOME      U_NOME      MATRÍCULA   SÉRIE       DISCIPLINA      NOTA
-Luiz        Silva       6215        1º ano      Português       8,0
-Alan        Vilela      3285        1º ano      História        8,0
+        ALUNO
+        P_NOME      U_NOME      MATRÍCULA   SÉRIE       DISCIPLINA      NOTA
+        Luiz        Silva       6215        1º ano      Português       8,0
+        Alan        Vilela      3285        1º ano      História        8,0
 
 
 
 3)  πP_NOME, NOTA (ALUNO)
     SELECT P_NOME, U_NOME, NOTA FROM ALUNO
 
-ALUNO       
-P_NOME      U_NOME      NOTA
-Vitória     Claudino    7,0
-Luiz        Silva       8,0
-André       Carvalho    9,5
-Alan        Vilela      8,0
+        ALUNO       
+        P_NOME      U_NOME      NOTA
+        Vitória     Claudino    7,0
+        Luiz        Silva       8,0
+        André       Carvalho    9,5
+        Alan        Vilela      8,0
 
 
 
 4)  CREATE TABLE PROFESSOR (
-    P_NOME varchar(25),
-    U_NOME varchar(25),
-    )
+    P_NOME varchar(15),
+    U_NOME varchar(15)
+    );
 
-
-PROFESSOR
-P_NOME      U_NOME
-Antonio     Peixoto
-João        Cabral
-Maurício    Nassau
-Raquel      Queiroz
-Clarice     Linspector
+        PROFESSOR
+        P_NOME      U_NOME
+        Ariano	    Suassuna
+        Cezar	    Diogo
+        Rui	        Barbosa
+        Raquel	    Queiroz
 
 
 
 5)  CREATE TABLE ALUNO (
-    P_NOME varchar(25),
-    U_NOME varchar(25),
-    )
+    P_NOME varchar(15),
+    U_NOME varchar(15)
+    );
 
-
-ALUNO
-P_NOME      U_NOME
-Vitória     Claudino
-Luiz        Silva
-André       Carvalho
-Alan        Vilela
-Figueiredo  Santos
-
+        ALUNO
+        P_NOME      U_NOME
+        Amaro	    Braga
+        Cezar	    Diogo
+        Evandro	    Feijó
+        Gustavo	    Hora
 
 
 6)  SELECT * FROM ALUNO
     UNION
-    SELECT * FROM PROFESSOR
+    SELECT * FROM PROFESSOR;
+
+        ALUNO UNION PROFESSOR
+        P_NOME      U_NOME
+        Amaro	    Braga
+        Evandro	    Feijó
+        Gustavo	    Hora
+        Ariano	    Suassuna
+        Cezar	    Diogo
+        Rui	        Barbosa
+        Raquel	    Queiroz
+
 
 
 7)  SELECT * FROM ALUNO
     INTERSECT
-    SELECT * FROM PROFESSOR
+    SELECT * FROM PROFESSOR;
+
+        ALUNO INTERSECT PROFESSOR
+        P_NOME      U_NOME
+        Cezar	    Diogo
+
+
 
 
 8)  SELECT * FROM ALUNO
     EXCEPT
     SELECT * FROM PROFESSOR
+
+        ALUNO EXCEPT PROFESSOR
+        P_NOME      U_NOME
+        Amaro	    Braga
+        Evandro	    Feijó
+        Gustavo	    Hora
+
