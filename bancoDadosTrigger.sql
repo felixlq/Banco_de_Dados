@@ -30,6 +30,6 @@ Select * From produto;
 /*
 
 idProduto   Nome_produto    Preco       Preco_desconto
-1	        Desktop MacM1	8500.00	    6375.00
+1	          Desktop MacM1	  8500.00	    6375.00
 
 */			
