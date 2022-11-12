@@ -1,0 +1,10 @@
+Uma empresa está sofrendo ataques que impactam diretamente a sua segurança. 
+Então, ela precisa atualizar as senhas de todos os seus funcionários. 
+Cite pelo menos três métodos para melhorar essas senhas.
+
+
+1) Alterar a politica de senhas para senhas fortes (caracteres maiúsculos, menúsculos, números e caracteres especiais)
+
+2) Utilizar criptografia no armazenamento de senhas dos Bancos.
+
+3) Promover a troca de senhas periódicamente.
