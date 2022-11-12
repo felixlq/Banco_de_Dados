@@ -1,5 +1,6 @@
 /*
-Você deve criar uma tabela para executar uma trigger que relacione algum comando, como: insert, select, delete ou update.
+Você deve criar uma tabela para executar uma trigger que relacione algum comando, como: 
+insert, select, delete ou update.
 */
 
 create database loja;
