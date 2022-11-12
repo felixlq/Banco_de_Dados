@@ -1,0 +1,28 @@
+Segurança de dados.
+
+É preciso garantir o bom funcionamento de três pilares: a integridade, disponibilidade e confiabilidade.
+
+Integridade
+Quando falamos em integridade, estamos falando de garantir que as informações manipuladas no sistema 
+permanecerão conservadas em suas características originais. Ou seja, a esse aspecto está diretamente
+ligado ao controle das mudanças feitas no sistema e toda a preservação do ciclo de vida dos dados, 
+baseado na origem, manutenção e destruição.
+
+Disponibilidade
+A disponibilidade é o princípio de garantir que os dados estarão sempre disponíveis para o uso legítimo. 
+Isso quer dizer que aqueles devidamente autorizados sempre terão acesso ao sistema. 
+
+Confiabilidade
+Naturalmente, a confiabilidade significa impor limites de acesso aos dados em questão.
+Isso quer dizer que nem todos terão acesso a eles, mas sim pessoas confiáveis e que realmente precisem
+ manipular essas informações, inclusive fazendo modificações, se for o caso.
+
+Importância da segurança em banco de dados
+Como podemos ver, a segurança em banco de dados compreende medidas que visam a proteção de dados em dois âmbitos. 
+Ela se atenta a evitar que o sistema caia nas mãos de pessoal não autorizado e também se preocupa com quem tem,
+de fato, acesso a ele.
+A importância de ter todo esse controle está na própria sobrevivência da empresa. 
+Sabemos que a coleta de dados é essencial para direcionar uma empresa no mercado, descobrir o perfil de 
+consumidor, traçar estratégias de venda e se manter competitiva no mercado.
+É por isso que as organizações investem cada vez mais em Big Data, Machine Learning, Inteligência Artificial,
+entre outras tecnologias que facilitam esse estudo de dados e permitem fazer previsões úteis.
