@@ -1,8 +1,8 @@
 
---BANCO DE DADOS
+/*BANCO DE DADOS*/
 create database bd_loja;
 
---TABELA
+/*TABELA*/
 create table compra(
 id_compra int (3) not null auto_increment,
 produto varchar (50) not null,
@@ -12,7 +12,7 @@ data_compra date,
 primary key (id_compra)
 )default charset = utf8;
 
---INPUT DE DADOS
+/*INPUT DE DADOS*/
 insert into compra values
 (default, 'cimento', 32.00, 25, 20221112),
 (default, 'areia', 15.50, 80, 20221112),
@@ -30,10 +30,10 @@ insert into compra values
 (default, 'ferro', 92.00, 25, 20221115),
 (default, 'ferro', 92.00, 25, 20221115);
 
---PROCEDURE
+/*PROCEDURE*/
 create procedure pr_compraDia (varData date)
 select produto, quantidade, data_compra from compra
 where data_compra = varData;
 
---CHAMADA DO PROCEDURE
+/*CHAMADA DO PROCEDURE*/
 CALL pr_compraDia(20221112);
