@@ -17,8 +17,11 @@ Naturalmente, a confiabilidade significa impor limites de acesso aos dados em qu
 Isso quer dizer que nem todos terão acesso a eles, mas sim pessoas confiáveis e que realmente precisem
  manipular essas informações, inclusive fazendo modificações, se for o caso.
 
+Implementar ações como Realizações de Backups periódicos, Implementar Criptografias nos Bancos e manter 
+politicas de senhas fortes ajudnam no processo de segurança.
+
 Importância da segurança em banco de dados
-Como podemos ver, a segurança em banco de dados compreende medidas que visam a proteção de dados em dois âmbitos. 
+A segurança em banco de dados compreende medidas que visam a proteção de dados em dois âmbitos. 
 Ela se atenta a evitar que o sistema caia nas mãos de pessoal não autorizado e também se preocupa com quem tem,
 de fato, acesso a ele.
 A importância de ter todo esse controle está na própria sobrevivência da empresa. 
@@ -26,3 +29,4 @@ Sabemos que a coleta de dados é essencial para direcionar uma empresa no mercad
 consumidor, traçar estratégias de venda e se manter competitiva no mercado.
 É por isso que as organizações investem cada vez mais em Big Data, Machine Learning, Inteligência Artificial,
 entre outras tecnologias que facilitam esse estudo de dados e permitem fazer previsões úteis.
+
