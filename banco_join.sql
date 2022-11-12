@@ -1,3 +1,6 @@
+/*Desenvolva um banco de dados que relacione tabelas através de chaves estrangeiras ou nomes de colunas iguais.
+ Após isso, realize todos os comandos Joins estudados.*/
+
 create database CONJUNTOS;
 
 create table letras(
